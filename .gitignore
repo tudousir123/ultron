@@ -29,8 +29,9 @@ runs/
 logs/
 *.log
 
-# Data & caches
-data/
+# Data & caches (keep the data README tracked)
+data/*
+!data/README.md
 cache/
 *.mp4
 *.avi
